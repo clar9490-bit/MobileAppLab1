@@ -13,6 +13,7 @@
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
+                <!--add intent action to the main and set launcher to it-->
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
 
